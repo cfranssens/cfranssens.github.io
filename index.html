@@ -8,6 +8,7 @@
     <title>Test</title>
     <style>
         canvas {
+            display: block;
             background-color: black;
         }
     </style>
@@ -15,7 +16,7 @@
 
 <body id="wasm-example">
 <script type="module">
-    import init from "/pkg/test.js";
+    import init from "/pkg/cf_webgl.js";
     init().then(() => {
         console.log("WASM Loaded");
     });

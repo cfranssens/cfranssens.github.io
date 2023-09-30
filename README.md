@@ -1,5 +1,10 @@
 # cfranssens.github.io
-Test site
+This is a test project mainly to get used to WebGL, WASM, and Github Pages.
+Site can be viewed here: https://www.cfranssens.github.com/
+
+
+
+
 
 This project is licensed under the Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International License.
 
