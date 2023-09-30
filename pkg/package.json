@@ -1,0 +1,14 @@
+{
+  "name": "cf-webgl",
+  "version": "0.1.0",
+  "files": [
+    "cf_webgl_bg.wasm",
+    "cf_webgl.js",
+    "cf_webgl.d.ts"
+  ],
+  "module": "cf_webgl.js",
+  "types": "cf_webgl.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
