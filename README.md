@@ -1,6 +1,6 @@
 # cfranssens.github.io
 This is a test project mainly to get used to WebGL, WASM, and Github Pages.
-Site can be viewed here: https://www.cfranssens.github.com/
+Site can be viewed here: https://cfranssens.github.io/
 
 
 
