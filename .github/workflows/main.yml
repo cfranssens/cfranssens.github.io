@@ -9,4 +9,4 @@ jobs:
         with:
           version: 'latest' 
 
-      - run: wasm-pack build transwavegan
+      - run: wasm-pack build /
