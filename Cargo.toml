@@ -1,0 +1,38 @@
+[package]
+name = "transwavegan"
+version = "0.1.0"
+authors = ["c"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+winit = {version = "0.29.4", features = ["rwh_05", "rwh_06", "x11"]}
+pollster = "0.3.0"
+bytemuck = {version = "1.14.0", features = ["derive"]}
+image = "0.24.7"
+noise = "0.8.2"
+cgmath = "0.18"
+bit-vec = "0.6"
+
+anyhow = "1.0"
+rodio = "0.17.3"
+log = "0.4"
+
+console_error_panic_hook = "0.1.6"
+console_log = "1.0"
+wgpu = { version = "0.18", features = ["webgl"]}
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4.30"
+web-sys = { version = "0.3", features = [
+    "Document",
+    "Window",
+    "Element",
+]}
+
+
+
+[profile.release]
+opt-level = "s"
