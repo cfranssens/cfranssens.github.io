@@ -7,13 +7,11 @@
   "files": [
     "transwavegan_bg.wasm",
     "transwavegan.js",
-    "transwavegan_bg.js",
     "transwavegan.d.ts"
   ],
   "module": "transwavegan.js",
   "types": "transwavegan.d.ts",
   "sideEffects": [
-    "./transwavegan.js",
     "./snippets/*"
   ]
 }
