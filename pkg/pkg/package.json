@@ -1,0 +1,15 @@
+{
+  "name": "LyondellBasell",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "LyondellBasell_bg.wasm",
+    "LyondellBasell.js",
+    "LyondellBasell.d.ts"
+  ],
+  "main": "LyondellBasell.js",
+  "types": "LyondellBasell.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
