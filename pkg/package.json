@@ -1,16 +1,14 @@
 {
-  "name": "transwavegan",
-  "collaborators": [
-    "c"
-  ],
+  "name": "LyondellBasell",
+  "type": "module",
   "version": "0.1.0",
   "files": [
-    "transwavegan_bg.wasm",
-    "transwavegan.js",
-    "transwavegan.d.ts"
+    "LyondellBasell_bg.wasm",
+    "LyondellBasell.js",
+    "LyondellBasell.d.ts"
   ],
-  "module": "transwavegan.js",
-  "types": "transwavegan.d.ts",
+  "main": "LyondellBasell.js",
+  "types": "LyondellBasell.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]
